@@ -4,7 +4,8 @@
   "description": "Seedrs eslint config for React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "semantic-release --no-ci -b $BUILDKITE_JOB_ID",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,15 @@
   "peerDependencies": {
     "eslint": "^4.12.1",
     "eslint-plugin-react": "^7.5.1"
+  },
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.9.16"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
