@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/seedrs/eslint-config-seedrs-react#readme",
   "peerDependencies": {
-    "eslint": "^4.12.1 <= 5.6.0",
+    "eslint": "^4.12.1 <= 5.7.0",
     "eslint-plugin-react": "^7.5.1"
   },
   "devDependencies": {
