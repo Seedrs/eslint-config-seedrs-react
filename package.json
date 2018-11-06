@@ -4,7 +4,7 @@
   "description": "Seedrs eslint config for React",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release --no-ci -b $BUILDKITE_JOB_ID",
+    "semantic-release": "semantic-release",
     "commit": "git-cz"
   },
   "repository": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
-    "semantic-release": "^15.9.16"
+    "semantic-release": "15.10.7"
   },
   "config": {
     "commitizen": {
