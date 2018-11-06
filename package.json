@@ -4,7 +4,7 @@
   "description": "Seedrs eslint config for React",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --dry-run",
     "commit": "git-cz"
   },
   "repository": {
