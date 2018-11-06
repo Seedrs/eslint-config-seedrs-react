@@ -5,11 +5,13 @@ services:
       context: .
       args:
         - NPM_TOKEN
+    working_dir: /usr/src/app
     volumes:
       - ${SSH_AUTH_SOCK}:/ssh-agent
     environment:
       - NPM_TOKEN
       - GITHUB_TOKEN
+      - CI
       - BUILDKITE_JOB_ID
       - SSH_AUTH_SOCK=/ssh-agent
       - GIT_TERMINAL_PROMPT=0
