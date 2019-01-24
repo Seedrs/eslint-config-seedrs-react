@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/seedrs/eslint-config-seedrs-react#readme",
   "peerDependencies": {
-    "eslint": "^4.12.1 <= 5.9.0",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint": "^4.12.1 < 6",
+    "eslint-plugin-react": "^7.5.1 < 8"
   },
   "devDependencies": {
     "commitizen": "^2.10.1",
